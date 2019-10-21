@@ -1,0 +1,18 @@
+prefix=/home/jianglei/svg/build/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+sysconfdir=${prefix}/etc
+localstatedir=${prefix}/var
+PACKAGE=fontconfig
+confdir=${sysconfdir}/fonts
+cachedir=${localstatedir}/cache/${PACKAGE}
+
+Name: Fontconfig
+Description: Font configuration and customization library
+Version: 2.12.5
+Requires:  freetype2
+Requires.private:  expat
+Libs: -L${libdir} -lfontconfig
+Libs.private: -L/home/jianglei/svg/build/usr/local/lib -lexpat -L/home/jianglei/svg/build/usr/local/lib -lfreetype  
+Cflags: -I${includedir} -I/home/jianglei/svg/build/usr/local/include -I/home/jianglei/svg/build/usr/local/include/freetype2 -I/home/jianglei/svg/build/usr/local/include/libpng16 -I/home/jianglei/svg/build/usr/local/include  

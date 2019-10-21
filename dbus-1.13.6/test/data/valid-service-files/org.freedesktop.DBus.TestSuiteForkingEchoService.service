@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.freedesktop.DBus.TestSuiteForkingEchoService
+Exec=/home/jianglei/svg/dbus-1.13.6/test/test-service org.freedesktop.DBus.TestSuiteForkingEchoService fork

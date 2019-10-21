@@ -1,0 +1,4 @@
+[D-BUS Service]
+Exec=/home/jianglei/svg/dbus-1.13.6/test/test-service
+User=anyrandomuser
+

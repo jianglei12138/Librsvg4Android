@@ -1,0 +1,3 @@
+dbus-marshal-byteswap-util.lo: dbus-marshal-byteswap-util.c ../config.h
+
+../config.h:

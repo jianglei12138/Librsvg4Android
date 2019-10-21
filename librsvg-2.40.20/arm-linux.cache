@@ -1,0 +1,166 @@
+# This file is a shell script that caches the results of configure
+# tests run on this system so they can be shared between configure
+# scripts and configure runs, see configure's option --config-cache.
+# It is not useful on other systems.  If it contains results you don't
+# want to keep, you may remove or edit it.
+#
+# config.status only pays attention to the cache file if you give it
+# the --recheck option to rerun configure.
+#
+# `ac_cv_env_foo' variables (set or unset) will be overridden when
+# loading this file, other *unset* `ac_cv_foo' will be assigned the
+# following values.
+
+ac_cv_build=${ac_cv_build=x86_64-pc-linux-gnu}
+ac_cv_c_bigendian=${ac_cv_c_bigendian=no}
+ac_cv_c_compiler_gnu=${ac_cv_c_compiler_gnu=yes}
+ac_cv_env_CC_set=set
+ac_cv_env_CC_value=aarch64-linux-android-gcc
+ac_cv_env_CFLAGS_set=set
+ac_cv_env_CFLAGS_value=--sysroot=/home/jianglei/android-ndk-r17/NDK/arm64/sysroot
+ac_cv_env_CPPFLAGS_set=
+ac_cv_env_CPPFLAGS_value=
+ac_cv_env_CPP_set=
+ac_cv_env_CPP_value=
+ac_cv_env_FONTCONFIG_CFLAGS_set=
+ac_cv_env_FONTCONFIG_CFLAGS_value=
+ac_cv_env_FONTCONFIG_LIBS_set=
+ac_cv_env_FONTCONFIG_LIBS_value=
+ac_cv_env_GDK_PIXBUF_CFLAGS_set=
+ac_cv_env_GDK_PIXBUF_CFLAGS_value=
+ac_cv_env_GDK_PIXBUF_LIBS_set=
+ac_cv_env_GDK_PIXBUF_LIBS_value=
+ac_cv_env_GMODULE_CFLAGS_set=
+ac_cv_env_GMODULE_CFLAGS_value=
+ac_cv_env_GMODULE_LIBS_set=
+ac_cv_env_GMODULE_LIBS_value=
+ac_cv_env_GTHREAD_CFLAGS_set=
+ac_cv_env_GTHREAD_CFLAGS_value=
+ac_cv_env_GTHREAD_LIBS_set=
+ac_cv_env_GTHREAD_LIBS_value=
+ac_cv_env_GTK3_CFLAGS_set=
+ac_cv_env_GTK3_CFLAGS_value=
+ac_cv_env_GTK3_LIBS_set=
+ac_cv_env_GTK3_LIBS_value=
+ac_cv_env_GTKDOC_DEPS_CFLAGS_set=
+ac_cv_env_GTKDOC_DEPS_CFLAGS_value=
+ac_cv_env_GTKDOC_DEPS_LIBS_set=
+ac_cv_env_GTKDOC_DEPS_LIBS_value=
+ac_cv_env_LDFLAGS_set=
+ac_cv_env_LDFLAGS_value=
+ac_cv_env_LIBRSVG_CFLAGS_set=
+ac_cv_env_LIBRSVG_CFLAGS_value=
+ac_cv_env_LIBRSVG_LIBS_set=
+ac_cv_env_LIBRSVG_LIBS_value=
+ac_cv_env_LIBS_set=
+ac_cv_env_LIBS_value=
+ac_cv_env_LT_SYS_LIBRARY_PATH_set=
+ac_cv_env_LT_SYS_LIBRARY_PATH_value=
+ac_cv_env_PANGOFT2_CFLAGS_set=
+ac_cv_env_PANGOFT2_CFLAGS_value=
+ac_cv_env_PANGOFT2_LIBS_set=
+ac_cv_env_PANGOFT2_LIBS_value=
+ac_cv_env_PKG_CONFIG_LIBDIR_set=set
+ac_cv_env_PKG_CONFIG_LIBDIR_value=/home/jianglei/svg/build/usr/local/lib/pkgconfig
+ac_cv_env_PKG_CONFIG_PATH_set=
+ac_cv_env_PKG_CONFIG_PATH_value=
+ac_cv_env_PKG_CONFIG_set=
+ac_cv_env_PKG_CONFIG_value=
+ac_cv_env_RSVG_CONVERT_CFLAGS_set=
+ac_cv_env_RSVG_CONVERT_CFLAGS_value=
+ac_cv_env_RSVG_CONVERT_LIBS_set=
+ac_cv_env_RSVG_CONVERT_LIBS_value=
+ac_cv_env_build_alias_set=
+ac_cv_env_build_alias_value=
+ac_cv_env_host_alias_set=set
+ac_cv_env_host_alias_value=aarch64-linux
+ac_cv_env_target_alias_set=
+ac_cv_env_target_alias_value=
+ac_cv_func_strtok_r=${ac_cv_func_strtok_r=yes}
+ac_cv_header_dlfcn_h=${ac_cv_header_dlfcn_h=yes}
+ac_cv_header_inttypes_h=${ac_cv_header_inttypes_h=yes}
+ac_cv_header_locale_h=${ac_cv_header_locale_h=yes}
+ac_cv_header_memory_h=${ac_cv_header_memory_h=yes}
+ac_cv_header_stdc=${ac_cv_header_stdc=yes}
+ac_cv_header_stdint_h=${ac_cv_header_stdint_h=yes}
+ac_cv_header_stdlib_h=${ac_cv_header_stdlib_h=yes}
+ac_cv_header_string_h=${ac_cv_header_string_h=yes}
+ac_cv_header_strings_h=${ac_cv_header_strings_h=yes}
+ac_cv_header_sys_stat_h=${ac_cv_header_sys_stat_h=yes}
+ac_cv_header_sys_types_h=${ac_cv_header_sys_types_h=yes}
+ac_cv_header_unistd_h=${ac_cv_header_unistd_h=yes}
+ac_cv_host=${ac_cv_host=aarch64-unknown-linux-gnu}
+ac_cv_lib_m_cos=${ac_cv_lib_m_cos=yes}
+ac_cv_objext=${ac_cv_objext=o}
+ac_cv_path_EGREP=${ac_cv_path_EGREP='/bin/grep -E'}
+ac_cv_path_FGREP=${ac_cv_path_FGREP='/bin/grep -F'}
+ac_cv_path_GREP=${ac_cv_path_GREP=/bin/grep}
+ac_cv_path_GTKDOC_CHECK_PATH=${ac_cv_path_GTKDOC_CHECK_PATH=/usr/bin/gtkdoc-check}
+ac_cv_path_GTKDOC_MKPDF=${ac_cv_path_GTKDOC_MKPDF=/usr/bin/gtkdoc-mkpdf}
+ac_cv_path_GTKDOC_REBASE=${ac_cv_path_GTKDOC_REBASE=/usr/bin/gtkdoc-rebase}
+ac_cv_path_PKG_CONFIG=${ac_cv_path_PKG_CONFIG=/usr/bin/pkg-config}
+ac_cv_path_SED=${ac_cv_path_SED=/bin/sed}
+ac_cv_path_ac_pt_PKG_CONFIG=${ac_cv_path_ac_pt_PKG_CONFIG=/usr/bin/pkg-config}
+ac_cv_path_install=${ac_cv_path_install='/usr/bin/install -c'}
+ac_cv_path_lt_DD=${ac_cv_path_lt_DD=/bin/dd}
+ac_cv_path_mkdir=${ac_cv_path_mkdir=/bin/mkdir}
+ac_cv_prog_AR=${ac_cv_prog_AR=aarch64-linux-android-ar}
+ac_cv_prog_AWK=${ac_cv_prog_AWK=mawk}
+ac_cv_prog_CC=${ac_cv_prog_CC=aarch64-linux-android-gcc}
+ac_cv_prog_CPP=${ac_cv_prog_CPP='aarch64-linux-android-gcc -E'}
+ac_cv_prog_GTKDOC_CHECK=${ac_cv_prog_GTKDOC_CHECK=gtkdoc-check.test}
+ac_cv_prog_OBJDUMP=${ac_cv_prog_OBJDUMP=aarch64-linux-android-objdump}
+ac_cv_prog_RANLIB=${ac_cv_prog_RANLIB=aarch64-linux-android-ranlib}
+ac_cv_prog_STRIP=${ac_cv_prog_STRIP=aarch64-linux-android-strip}
+ac_cv_prog_ac_ct_MANIFEST_TOOL=${ac_cv_prog_ac_ct_MANIFEST_TOOL=mt}
+ac_cv_prog_cc_c89=${ac_cv_prog_cc_c89=}
+ac_cv_prog_cc_g=${ac_cv_prog_cc_g=yes}
+ac_cv_prog_make_make_set=${ac_cv_prog_make_make_set=yes}
+ac_cv_search_strerror=${ac_cv_search_strerror='none required'}
+am_cv_CC_dependencies_compiler_type=${am_cv_CC_dependencies_compiler_type=gcc3}
+am_cv_make_support_nested_variables=${am_cv_make_support_nested_variables=yes}
+am_cv_prog_cc_c_o=${am_cv_prog_cc_c_o=yes}
+am_cv_val_LC_MESSAGES=${am_cv_val_LC_MESSAGES=yes}
+cc_cv_ldflags__Wl__Bsymbolic_functions=${cc_cv_ldflags__Wl__Bsymbolic_functions=yes}
+lt_cv_ar_at_file=${lt_cv_ar_at_file=@}
+lt_cv_archive_cmds_need_lc=${lt_cv_archive_cmds_need_lc=no}
+lt_cv_deplibs_check_method=${lt_cv_deplibs_check_method=pass_all}
+lt_cv_file_magic_cmd=${lt_cv_file_magic_cmd='$MAGIC_CMD'}
+lt_cv_file_magic_test_file=${lt_cv_file_magic_test_file=}
+lt_cv_ld_reload_flag=${lt_cv_ld_reload_flag=-r}
+lt_cv_nm_interface=${lt_cv_nm_interface='BSD nm'}
+lt_cv_objdir=${lt_cv_objdir=.libs}
+lt_cv_path_LD=${lt_cv_path_LD=aarch64-linux-android-ld}
+lt_cv_path_NM=${lt_cv_path_NM=aarch64-linux-android-nm}
+lt_cv_path_mainfest_tool=${lt_cv_path_mainfest_tool=no}
+lt_cv_prog_compiler_c_o=${lt_cv_prog_compiler_c_o=yes}
+lt_cv_prog_compiler_pic=${lt_cv_prog_compiler_pic='-fPIC -DPIC'}
+lt_cv_prog_compiler_pic_works=${lt_cv_prog_compiler_pic_works=yes}
+lt_cv_prog_compiler_rtti_exceptions=${lt_cv_prog_compiler_rtti_exceptions=no}
+lt_cv_prog_compiler_static_works=${lt_cv_prog_compiler_static_works=yes}
+lt_cv_prog_gnu_ld=${lt_cv_prog_gnu_ld=yes}
+lt_cv_sharedlib_from_linklib_cmd=${lt_cv_sharedlib_from_linklib_cmd='printf %s\n'}
+lt_cv_shlibpath_overrides_runpath=${lt_cv_shlibpath_overrides_runpath=no}
+lt_cv_sys_global_symbol_pipe=${lt_cv_sys_global_symbol_pipe='sed -n -e '\''s/^.*[	 ]\([ABCDGIRSTW][ABCDGIRSTW]*\)[	 ][	 ]*\([_A-Za-z][_A-Za-z0-9]*\)$/\1 \2 \2/p'\'' | sed '\''/ __gnu_lto/d'\'''}
+test "${lt_cv_sys_global_symbol_to_c_name_address+set}" = set || lt_cv_sys_global_symbol_to_c_name_address='sed -n -e '\''s/^: \(.*\) .*$/  {"\1", (void *) 0},/p'\'' -e '\''s/^[ABCDGIRSTW][ABCDGIRSTW]* .* \(.*\)$/  {"\1", (void *) \&\1},/p'\'''
+test "${lt_cv_sys_global_symbol_to_c_name_address_lib_prefix+set}" = set || lt_cv_sys_global_symbol_to_c_name_address_lib_prefix='sed -n -e '\''s/^: \(.*\) .*$/  {"\1", (void *) 0},/p'\'' -e '\''s/^[ABCDGIRSTW][ABCDGIRSTW]* .* \(lib.*\)$/  {"\1", (void *) \&\1},/p'\'' -e '\''s/^[ABCDGIRSTW][ABCDGIRSTW]* .* \(.*\)$/  {"lib\1", (void *) \&\1},/p'\'''
+lt_cv_sys_global_symbol_to_cdecl=${lt_cv_sys_global_symbol_to_cdecl='sed -n -e '\''s/^T .* \(.*\)$/extern int \1();/p'\'' -e '\''s/^[ABCDGIRSTW][ABCDGIRSTW]* .* \(.*\)$/extern char \1;/p'\'''}
+lt_cv_sys_global_symbol_to_import=${lt_cv_sys_global_symbol_to_import=}
+lt_cv_sys_max_cmd_len=${lt_cv_sys_max_cmd_len=1572864}
+lt_cv_to_host_file_cmd=${lt_cv_to_host_file_cmd=func_convert_file_noop}
+lt_cv_to_tool_file_cmd=${lt_cv_to_tool_file_cmd=func_convert_file_noop}
+lt_cv_truncate_bin=${lt_cv_truncate_bin='/bin/dd bs=4096 count=1'}
+pkg_cv_FONTCONFIG_CFLAGS=${pkg_cv_FONTCONFIG_CFLAGS='-I/home/jianglei/svg/build/usr/local/include -I/home/jianglei/svg/build/usr/local/include/freetype2 -I/home/jianglei/svg/build/usr/local/include/libpng16 -I/home/jianglei/svg/build/usr/local/include -I/home/jianglei/svg/build/usr/local/include/freetype2 -I/home/jianglei/svg/build/usr/local/include/libpng16 -I/home/jianglei/svg/build/usr/local/include'}
+pkg_cv_FONTCONFIG_LIBS=${pkg_cv_FONTCONFIG_LIBS='-L/home/jianglei/svg/build/usr/local/lib -lfontconfig -lfreetype'}
+pkg_cv_GMODULE_CFLAGS=${pkg_cv_GMODULE_CFLAGS='-pthread -DPCRE_STATIC -I/home/jianglei/svg/build/usr/local/include/glib-2.0 -I/home/jianglei/svg/build/usr/local/lib/glib-2.0/include -I/home/jianglei/svg/build/usr/local/include'}
+pkg_cv_GMODULE_LIBS=${pkg_cv_GMODULE_LIBS='-L/home/jianglei/svg/build/usr/local/lib -Wl,--export-dynamic -lgmodule-2.0 -pthread -lglib-2.0 -lintl -liconv'}
+pkg_cv_GTHREAD_CFLAGS=${pkg_cv_GTHREAD_CFLAGS='-pthread -DPCRE_STATIC -I/home/jianglei/svg/build/usr/local/include/glib-2.0 -I/home/jianglei/svg/build/usr/local/lib/glib-2.0/include -I/home/jianglei/svg/build/usr/local/include'}
+pkg_cv_GTHREAD_LIBS=${pkg_cv_GTHREAD_LIBS='-L/home/jianglei/svg/build/usr/local/lib -lgthread-2.0 -pthread -lglib-2.0 -lintl -liconv'}
+pkg_cv_GTKDOC_DEPS_CFLAGS=${pkg_cv_GTKDOC_DEPS_CFLAGS='-DPCRE_STATIC -I/home/jianglei/svg/build/usr/local/include/glib-2.0 -I/home/jianglei/svg/build/usr/local/lib/glib-2.0/include -I/home/jianglei/svg/build/usr/local/include'}
+pkg_cv_GTKDOC_DEPS_LIBS=${pkg_cv_GTKDOC_DEPS_LIBS='-L/home/jianglei/svg/build/usr/local/lib -lgobject-2.0 -lglib-2.0 -lintl -liconv'}
+pkg_cv_LIBRSVG_CFLAGS=${pkg_cv_LIBRSVG_CFLAGS='-pthread -DPCRE_STATIC -I/home/jianglei/svg/build/usr/local/include/gdk-pixbuf-2.0 -I/home/jianglei/svg/build/usr/local/include/libpng16 -I/home/jianglei/svg/build/usr/local/include/pango-1.0 -I/home/jianglei/svg/build/usr/local/include/harfbuzz -I/home/jianglei/svg/build/usr/local/include/pango-1.0 -I/home/jianglei/svg/build/usr/local/include/cairo -I/home/jianglei/svg/build/usr/local/include/pixman-1 -I/home/jianglei/svg/build/usr/local/include -I/home/jianglei/svg/build/usr/local/include/freetype2 -I/home/jianglei/svg/build/usr/local/include/libpng16 -I/home/jianglei/svg/build/usr/local/include -I/home/jianglei/svg/build/usr/local/include/freetype2 -I/home/jianglei/svg/build/usr/local/include/libpng16 -I/home/jianglei/svg/build/usr/local/include -I/home/jianglei/svg/build/usr/local/include/libcroco-0.6 -I/home/jianglei/svg/build/usr/local/include/glib-2.0 -I/home/jianglei/svg/build/usr/local/lib/glib-2.0/include -I/home/jianglei/svg/build/usr/local/include -I/home/jianglei/svg/build/usr/local/include/libxml2'}
+pkg_cv_LIBRSVG_LIBS=${pkg_cv_LIBRSVG_LIBS='-L/home/jianglei/svg/build/usr/local/lib -lgdk_pixbuf-2.0 -lgio-2.0 -lpangocairo-1.0 -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lfontconfig -lfreetype -lcairo -lpng16 -lz -lcroco-0.6 -lglib-2.0 -lintl -liconv -lxml2'}
+pkg_cv_PANGOFT2_CFLAGS=${pkg_cv_PANGOFT2_CFLAGS='-DPCRE_STATIC -I/home/jianglei/svg/build/usr/local/include/pango-1.0 -I/home/jianglei/svg/build/usr/local/include/harfbuzz -I/home/jianglei/svg/build/usr/local/include/pango-1.0 -I/home/jianglei/svg/build/usr/local/include/glib-2.0 -I/home/jianglei/svg/build/usr/local/lib/glib-2.0/include -I/home/jianglei/svg/build/usr/local/include -I/home/jianglei/svg/build/usr/local/include/freetype2 -I/home/jianglei/svg/build/usr/local/include/libpng16 -I/home/jianglei/svg/build/usr/local/include -I/home/jianglei/svg/build/usr/local/include/freetype2 -I/home/jianglei/svg/build/usr/local/include/libpng16 -I/home/jianglei/svg/build/usr/local/include'}
+pkg_cv_PANGOFT2_LIBS=${pkg_cv_PANGOFT2_LIBS='-L/home/jianglei/svg/build/usr/local/lib -lpangoft2-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lintl -liconv -lfontconfig -lfreetype'}
+pkg_cv_RSVG_CONVERT_CFLAGS=${pkg_cv_RSVG_CONVERT_CFLAGS='-pthread -DPCRE_STATIC -I/home/jianglei/svg/build/usr/local/include/gio-unix-2.0/ -I/home/jianglei/svg/build/usr/local/include/gdk-pixbuf-2.0 -I/home/jianglei/svg/build/usr/local/include/libpng16 -I/home/jianglei/svg/build/usr/local/include/pango-1.0 -I/home/jianglei/svg/build/usr/local/include/harfbuzz -I/home/jianglei/svg/build/usr/local/include/pango-1.0 -I/home/jianglei/svg/build/usr/local/include/cairo -I/home/jianglei/svg/build/usr/local/include/glib-2.0 -I/home/jianglei/svg/build/usr/local/lib/glib-2.0/include -I/home/jianglei/svg/build/usr/local/include -I/home/jianglei/svg/build/usr/local/include/pixman-1 -I/home/jianglei/svg/build/usr/local/include -I/home/jianglei/svg/build/usr/local/include/freetype2 -I/home/jianglei/svg/build/usr/local/include/libpng16 -I/home/jianglei/svg/build/usr/local/include -I/home/jianglei/svg/build/usr/local/include/freetype2 -I/home/jianglei/svg/build/usr/local/include/libpng16 -I/home/jianglei/svg/build/usr/local/include'}
+pkg_cv_RSVG_CONVERT_LIBS=${pkg_cv_RSVG_CONVERT_LIBS='-L/home/jianglei/svg/build/usr/local/lib -lgio-2.0 -lgdk_pixbuf-2.0 -lpangocairo-1.0 -lpango-1.0 -lgobject-2.0 -lglib-2.0 -lintl -liconv -lcairo'}

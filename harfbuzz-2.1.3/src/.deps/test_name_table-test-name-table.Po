@@ -1,0 +1,162 @@
+test_name_table-test-name-table.o: test-name-table.cc hb.h hb-blob.h \
+  hb-common.h \
+  /home/jianglei/android-ndk-r17/NDK/arm64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/stdint.h \
+  /home/jianglei/android-ndk-r17/NDK/arm64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/__config \
+  /home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/features.h \
+  /home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/sys/cdefs.h \
+  /home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/android/api-level.h \
+  /home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/android/versioning.h \
+  /home/jianglei/android-ndk-r17/NDK/arm64/lib64/clang/6.0.2/include/stdint.h \
+  /home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/stdint.h \
+  /home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/bits/wchar_limits.h \
+  /home/jianglei/android-ndk-r17/NDK/arm64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/stddef.h \
+  /home/jianglei/android-ndk-r17/NDK/arm64/lib64/clang/6.0.2/include/stddef.h \
+  /home/jianglei/android-ndk-r17/NDK/arm64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/__nullptr \
+  hb-buffer.h hb-unicode.h hb-font.h hb-face.h hb-set.h hb-deprecated.h \
+  hb-map.h hb-shape.h hb-shape-plan.h hb-version.h hb-ot.h hb-ot-color.h \
+  hb-ot-name.h hb-ot-font.h hb-ot-layout.h hb-ot-math.h hb-ot-shape.h \
+  hb-ot-var.h \
+  /home/jianglei/android-ndk-r17/NDK/arm64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/stdlib.h \
+  /home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/stdlib.h \
+  /home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/alloca.h \
+  /home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/bits/wait.h \
+  /home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/linux/wait.h \
+  /home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/malloc.h \
+  /home/jianglei/android-ndk-r17/NDK/arm64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/stdio.h \
+  /home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/stdio.h \
+  /home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/sys/types.h \
+  /home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/linux/types.h \
+  /home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/asm/types.h \
+  /home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/asm-generic/types.h \
+  /home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/asm-generic/int-ll64.h \
+  /home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/asm/bitsperlong.h \
+  /home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/asm-generic/bitsperlong.h \
+  /home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/linux/posix_types.h \
+  /home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/linux/stddef.h \
+  /home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/linux/compiler_types.h \
+  /home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/linux/compiler.h \
+  /home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/asm/posix_types.h \
+  /home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/asm-generic/posix_types.h \
+  /home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/bits/pthread_types.h \
+  /home/jianglei/android-ndk-r17/NDK/arm64/lib64/clang/6.0.2/include/stdarg.h \
+  /home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/bits/seek_constants.h \
+  /home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/xlocale.h \
+  /home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/android/legacy_stdlib_inlines.h
+
+hb.h:
+
+hb-blob.h:
+
+hb-common.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/stdint.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/__config:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/features.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/sys/cdefs.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/android/api-level.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/android/versioning.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/lib64/clang/6.0.2/include/stdint.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/stdint.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/bits/wchar_limits.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/stddef.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/lib64/clang/6.0.2/include/stddef.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/__nullptr:
+
+hb-buffer.h:
+
+hb-unicode.h:
+
+hb-font.h:
+
+hb-face.h:
+
+hb-set.h:
+
+hb-deprecated.h:
+
+hb-map.h:
+
+hb-shape.h:
+
+hb-shape-plan.h:
+
+hb-version.h:
+
+hb-ot.h:
+
+hb-ot-color.h:
+
+hb-ot-name.h:
+
+hb-ot-font.h:
+
+hb-ot-layout.h:
+
+hb-ot-math.h:
+
+hb-ot-shape.h:
+
+hb-ot-var.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/stdlib.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/stdlib.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/alloca.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/bits/wait.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/linux/wait.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/malloc.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/bin/../lib/gcc/aarch64-linux-android/4.9.x/../../../../include/c++/4.9.x/stdio.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/stdio.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/sys/types.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/linux/types.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/asm/types.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/asm-generic/types.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/asm-generic/int-ll64.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/asm/bitsperlong.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/asm-generic/bitsperlong.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/linux/posix_types.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/linux/stddef.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/linux/compiler_types.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/linux/compiler.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/asm/posix_types.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/asm-generic/posix_types.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/bits/pthread_types.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/lib64/clang/6.0.2/include/stdarg.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/bits/seek_constants.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/xlocale.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/bin/../sysroot/usr/include/android/legacy_stdlib_inlines.h:

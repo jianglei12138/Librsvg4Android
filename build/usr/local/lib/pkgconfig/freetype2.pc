@@ -1,0 +1,14 @@
+prefix=/home/jianglei/svg/build/usr/local
+exec_prefix=/home/jianglei/svg/build/usr/local
+libdir=/home/jianglei/svg/build/usr/local/lib
+includedir=/home/jianglei/svg/build/usr/local/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 22.0.16
+Requires:
+Requires.private: zlib, libpng
+Libs: -L${libdir} -lfreetype
+Libs.private: 
+Cflags: -I${includedir}/freetype2

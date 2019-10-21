@@ -1,0 +1,17 @@
+xmlrole.lo: xmlrole.c \
+ /home/jianglei/android-ndk-r17/NDK/arm64/lib/gcc/aarch64-linux-android/4.9.x/include/stddef.h \
+ ../expat_config.h expat_external.h internal.h xmlrole.h xmltok.h ascii.h
+
+/home/jianglei/android-ndk-r17/NDK/arm64/lib/gcc/aarch64-linux-android/4.9.x/include/stddef.h:
+
+../expat_config.h:
+
+expat_external.h:
+
+internal.h:
+
+xmlrole.h:
+
+xmltok.h:
+
+ascii.h:

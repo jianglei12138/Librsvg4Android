@@ -1,0 +1,3 @@
+dbus-marshal-validate-util.lo: dbus-marshal-validate-util.c ../config.h
+
+../config.h:

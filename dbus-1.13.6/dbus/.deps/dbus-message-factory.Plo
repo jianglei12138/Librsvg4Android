@@ -1,0 +1,3 @@
+dbus-message-factory.lo: dbus-message-factory.c ../config.h
+
+../config.h:

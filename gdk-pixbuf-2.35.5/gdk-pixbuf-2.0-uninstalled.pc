@@ -1,0 +1,11 @@
+gdk_pixbuf_binary_version=2.10.0
+gdk_pixbuf_binarydir=${exec_prefix}/lib/gdk-pixbuf-2.0/2.10.0
+gdk_pixbuf_moduledir=${gdk_pixbuf_binarydir}/loaders
+gdk_pixbuf_cache_file=${gdk_pixbuf_binarydir}/loaders.cache
+
+Name: GdkPixbuf Uninstalled
+Description: Image loading and scaling, Not Installed
+Version: 2.35.5
+Requires: gobject-2.0 gmodule-2.0 libpng16
+Libs: ${pc_top_builddir}/${pcfiledir}/gdk-pixbuf/libgdk_pixbuf-2.0.la   -L/home/jianglei/svg/build/usr/local/lib -lpng16 -lz-1-2-11  -lm 
+Cflags: -I${pc_top_builddir}/${pcfiledir}/. -I${pc_top_builddir}/${pcfiledir} 

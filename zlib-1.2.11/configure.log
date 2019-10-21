@@ -1,0 +1,469 @@
+--------------------
+./configure --disable-tools --disable-pixbuf-loader --enable-introspection=no --host=arm-linux CFLAGS=--sysroot=/home/jianglei/android-ndk-r17/NDK/arm64/sysroot --with-python=no --with-modules=no --with-ftp=no --disable-raw-api --disable-structs --enable-purify-safety --without-python --enable-libmount=no --enable-shared=no --enable-png=yes --prefix=/home/jianglei/svg/build/usr/local --enable-svg=no --enable-gobject=no
+2019年 10月 15日 星期二 12:48:13 CST
+unknown option: --disable-tools
+./configure --help for help
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure --host=arm-linux CFLAGS=--sysroot=/home/jianglei/android-ndk-r17/NDK/arm64/sysroot --prefix=/home/jianglei/svg/build/usr/local
+2019年 10月 15日 星期二 12:48:42 CST
+unknown option: --host=arm-linux
+./configure --help for help
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure CFLAGS=--sysroot=/home/jianglei/android-ndk-r17/NDK/arm64/sysroot --prefix=/home/jianglei/svg/build/usr/local
+2019年 10月 15日 星期二 12:48:55 CST
+unknown option: CFLAGS=--sysroot=/home/jianglei/android-ndk-r17/NDK/arm64/sysroot
+./configure --help for help
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure
+2019年 10月 15日 星期二 12:48:59 CST
+Checking for gcc...
+=== ztest11943.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+gcc -c ztest11943.c
+... using gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest11943.c ===
+int foo() { return 0; }
+===
+gcc -c -O3 ztest11943.c
+
+Checking for shared library support...
+=== ztest11943.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+gcc -w -c -O3 -fPIC ztest11943.c
+gcc -shared -Wl,-soname,libz.so.1,--version-script,zlib.map -O3 -fPIC -o ztest11943.so ztest11943.o
+Building shared library libz.so.1.2.11 with gcc.
+
+=== ztest11943.c ===
+#include <stdio.h>
+#include <stdlib.h>
+size_t dummy = 0;
+===
+gcc -c -O3 ztest11943.c
+Checking for size_t... Yes.
+
+
+=== ztest11943.c ===
+#include <sys/types.h>
+off64_t dummy = 0;
+===
+gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest11943.c
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+
+=== ztest11943.c ===
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+===
+gcc -O3 -D_LARGEFILE64_SOURCE=1 -o ztest11943 ztest11943.c
+Checking for strerror... Yes.
+
+=== ztest11943.c ===
+#include <unistd.h>
+int main() { return 0; }
+===
+gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest11943.c
+Checking for unistd.h... Yes.
+
+=== ztest11943.c ===
+#include <stdarg.h>
+int main() { return 0; }
+===
+gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest11943.c
+Checking for stdarg.h... Yes.
+
+=== ztest11943.c ===
+#include <stdio.h>
+#include <stdarg.h>
+#include "zconf.h"
+int main()
+{
+#ifndef STDC
+  choke me
+#endif
+  return 0;
+}
+===
+gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest11943.c
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+
+=== ztest11943.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return 0;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+gcc -O3 -D_LARGEFILE64_SOURCE=1 -o ztest11943 ztest11943.c
+Checking for vsnprintf() in stdio.h... Yes.
+
+=== ztest11943.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  int n;
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  n = vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return n;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest11943.c
+Checking for return value of vsnprintf()... Yes.
+
+=== ztest11943.c ===
+#define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
+int ZLIB_INTERNAL foo;
+int main()
+{
+  return 0;
+}
+===
+gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest11943.c
+Checking for attribute(visibility) support... Yes.
+
+ALL = static shared all64
+AR = ar
+ARFLAGS = rc
+CC = gcc
+CFLAGS = -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+CPP = gcc -E
+EXE =
+LDCONFIG = ldconfig
+LDFLAGS =
+LDSHARED = gcc -shared -Wl,-soname,libz.so.1,--version-script,zlib.map
+LDSHAREDLIBC = -lc
+OBJC = $(OBJZ) $(OBJG)
+PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)
+RANLIB = ranlib
+SFLAGS = -O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+SHAREDLIB = libz.so
+SHAREDLIBM = libz.so.1
+SHAREDLIBV = libz.so.1.2.11
+STATICLIB = libz.a
+TEST = all teststatic testshared test64
+VER = 1.2.11
+Z_U4 =
+SRCDIR =
+exec_prefix = ${prefix}
+includedir = ${prefix}/include
+libdir = ${exec_prefix}/lib
+mandir = ${prefix}/share/man
+prefix = /usr/local
+sharedlibdir = ${libdir}
+uname = Linux
+--------------------
+
+
+--------------------
+./configure -h
+2019年 10月 15日 星期二 12:49:04 CST
+usage:
+  configure [--const] [--zprefix] [--prefix=PREFIX]  [--eprefix=EXPREFIX]
+    [--static] [--64] [--libdir=LIBDIR] [--sharedlibdir=LIBDIR]
+    [--includedir=INCLUDEDIR] [--archs="-arch i386 -arch x86_64"]
+--------------------
+./configure --prefix=/home/jianglei/svg/build/usr/local
+2019年 10月 15日 星期二 12:49:12 CST
+=== ztest12089.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+aarch64-linux-android-gcc -c ztest12089.c
+... using gcc
+
+Checking for obsessive-compulsive compiler options...
+=== ztest12089.c ===
+int foo() { return 0; }
+===
+aarch64-linux-android-gcc -c -O3 ztest12089.c
+
+Checking for shared library support...
+=== ztest12089.c ===
+extern int getchar();
+int hello() {return getchar();}
+===
+aarch64-linux-android-gcc -w -c -O3 -fPIC ztest12089.c
+aarch64-linux-android-gcc -shared -Wl,-soname,libz.so.1,--version-script,zlib.map -O3 -fPIC -o ztest12089.so ztest12089.o
+Building shared library libz.so.1.2.11 with aarch64-linux-android-gcc.
+
+=== ztest12089.c ===
+#include <stdio.h>
+#include <stdlib.h>
+size_t dummy = 0;
+===
+aarch64-linux-android-gcc -c -O3 ztest12089.c
+Checking for size_t... Yes.
+
+
+=== ztest12089.c ===
+#include <sys/types.h>
+off64_t dummy = 0;
+===
+aarch64-linux-android-gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest12089.c
+Checking for off64_t... Yes.
+Checking for fseeko... Yes.
+
+=== ztest12089.c ===
+#include <string.h>
+#include <errno.h>
+int main() { return strlen(strerror(errno)); }
+===
+aarch64-linux-android-gcc -O3 -D_LARGEFILE64_SOURCE=1 -o ztest12089 ztest12089.c
+Checking for strerror... Yes.
+
+=== ztest12089.c ===
+#include <unistd.h>
+int main() { return 0; }
+===
+aarch64-linux-android-gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest12089.c
+Checking for unistd.h... Yes.
+
+=== ztest12089.c ===
+#include <stdarg.h>
+int main() { return 0; }
+===
+aarch64-linux-android-gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest12089.c
+Checking for stdarg.h... Yes.
+
+=== ztest12089.c ===
+#include <stdio.h>
+#include <stdarg.h>
+#include "zconf.h"
+int main()
+{
+#ifndef STDC
+  choke me
+#endif
+  return 0;
+}
+===
+aarch64-linux-android-gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest12089.c
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf().
+
+=== ztest12089.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return 0;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+aarch64-linux-android-gcc -O3 -D_LARGEFILE64_SOURCE=1 -o ztest12089 ztest12089.c
+Checking for vsnprintf() in stdio.h... Yes.
+
+=== ztest12089.c ===
+#include <stdio.h>
+#include <stdarg.h>
+int mytest(const char *fmt, ...)
+{
+  int n;
+  char buf[20];
+  va_list ap;
+  va_start(ap, fmt);
+  n = vsnprintf(buf, sizeof(buf), fmt, ap);
+  va_end(ap);
+  return n;
+}
+int main()
+{
+  return (mytest("Hello%d\n", 1));
+}
+===
+aarch64-linux-android-gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest12089.c
+Checking for return value of vsnprintf()... Yes.
+
+=== ztest12089.c ===
+#define ZLIB_INTERNAL __attribute__((visibility ("hidden")))
+int ZLIB_INTERNAL foo;
+int main()
+{
+  return 0;
+}
+===
+aarch64-linux-android-gcc -c -O3 -D_LARGEFILE64_SOURCE=1 ztest12089.c
+Checking for attribute(visibility) support... Yes.
+
+ALL = static shared all64
+AR = aarch64-linux-android-ar
+ARFLAGS = rc
+CC = aarch64-linux-android-gcc
+CFLAGS = -O3 -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+CPP = aarch64-linux-android-gcc -E
+EXE =
+LDCONFIG = ldconfig
+LDFLAGS =
+LDSHARED = aarch64-linux-android-gcc -shared -Wl,-soname,libz.so.1,--version-script,zlib.map
+LDSHAREDLIBC = -lc
+OBJC = $(OBJZ) $(OBJG)
+PIC_OBJC = $(PIC_OBJZ) $(PIC_OBJG)
+RANLIB = aarch64-linux-android-ranlib
+SFLAGS = -O3 -fPIC -D_LARGEFILE64_SOURCE=1 -DHAVE_HIDDEN
+SHAREDLIB = libz.so
+SHAREDLIBM = libz.so.1
+SHAREDLIBV = libz.so.1.2.11
+STATICLIB = libz.a
+TEST = all teststatic testshared test64
+VER = 1.2.11
+Z_U4 =
+SRCDIR =
+exec_prefix = ${prefix}
+includedir = ${prefix}/include
+libdir = ${exec_prefix}/lib
+mandir = ${prefix}/share/man
+prefix = /home/jianglei/svg/build/usr/local
+sharedlibdir = ${libdir}
+uname = Linux
+--------------------
+
+
+--------------------
+./configure --disable-tools --disable-pixbuf-loader --enable-introspection=no --host=aarch64-linux CFLAGS=-D__ANDROID_API__=21 --sysroot=/home/jianglei/android-ndk-r17/NDK/arm64/sysroot
+2019年 10月 17日 星期四 15:05:36 CST
+unknown option: --disable-tools
+./configure --help for help
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure --host=arm-linux CFLAGS=-D__ANDROID_API__=21 --sysroot=/home/jianglei/android-ndk-r17/NDK/arm64/sysroot
+2019年 10月 17日 星期四 15:06:19 CST
+unknown option: --host=arm-linux
+./configure --help for help
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure --host=aarch64-linux CFLAGS=-D__ANDROID_API__=21 --sysroot=/home/jianglei/android-ndk-r17/NDK/arm64/sysroot
+2019年 10月 17日 星期四 15:06:44 CST
+unknown option: --host=aarch64-linux
+./configure --help for help
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure --host=arm-linux CFLAGS=-D__ANDROID_API__=21 --sysroot=/home/jianglei/android-ndk-r17/NDK/arm64/sysroot
+2019年 10月 17日 星期四 15:07:02 CST
+unknown option: --host=arm-linux
+./configure --help for help
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure --host=aarch64 CFLAGS=-D__ANDROID_API__=21 --sysroot=/home/jianglei/android-ndk-r17/NDK/arm64/sysroot
+2019年 10月 17日 星期四 15:07:13 CST
+unknown option: --host=aarch64
+./configure --help for help
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure --host=aarch64 CFLAGS=-D__ANDROID_API__=21 --sysroot=/home/jianglei/android-ndk-r17/NDK/arm64/sysroot
+2019年 10月 17日 星期四 15:07:28 CST
+unknown option: --host=aarch64
+./configure --help for help
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure --host=ar CFLAGS=-D__ANDROID_API__=21 --sysroot=/home/jianglei/android-ndk-r17/NDK/arm64/sysroot
+2019年 10月 17日 星期四 15:07:34 CST
+unknown option: --host=ar
+./configure --help for help
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure --host=arm CFLAGS=-D__ANDROID_API__=21 --sysroot=/home/jianglei/android-ndk-r17/NDK/arm64/sysroot
+2019年 10月 17日 星期四 15:07:40 CST
+unknown option: --host=arm
+./configure --help for help
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure --disable-tools --disable-pixbuf-loader --enable-introspection=no --host=aarch64-linux CFLAGS=-D__ANDROID_API__=21 --sysroot=/home/jianglei/android-ndk-r17/NDK/arm64/sysroot --with-python=no --with-modules=no --with-ftp=no --disable-raw-api --disable-structs --enable-purify-safety --without-python --enable-libmount=no --enable-shared=no --enable-png=yes --prefix=/home/jianglei/svg/build/usr/local --enable-static --disable-raw-api --without-python --disable-rebuilds --enable-script=no --without-libtiff --without-libjpeg --enable-gio-sniffing=no --disable-modules --disable-modular-tests --disable-tests --with-python=/usr/bin/python2.7 --cache-file=arm-linux.cache --disable-gtk-doc-pdf --disable-gtk-doc-html --disable-gtk-doc --disable-man --with-fontconfig=no --with-icu=no --enable-shared=yes --with-libstdc++=no --with-gobject=no --with-cairo=no --with-fontconfig=no --with-icu=no --with-ucdn=no --with-graphite2=no --with-uniscribe=no --with-directwrite=no --with-coretext=no --enable-interpreter=no
+2019年 10月 17日 星期四 15:07:45 CST
+unknown option: --disable-tools
+./configure --help for help
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure -h
+2019年 10月 17日 星期四 15:08:25 CST
+usage:
+  configure [--const] [--zprefix] [--prefix=PREFIX]  [--eprefix=EXPREFIX]
+    [--static] [--64] [--libdir=LIBDIR] [--sharedlibdir=LIBDIR]
+    [--includedir=INCLUDEDIR] [--archs="-arch i386 -arch x86_64"]
+--------------------
+./configure --disable-tools --disable-pixbuf-loader --enable-introspection=no --host=aarch64-linux CFLAGS=-D__ANDROID_API__=21 --sysroot=/home/jianglei/android-ndk-r17/NDK/arm64/sysroot --with-python=no --with-modules=no --with-ftp=no --disable-raw-api --disable-structs --enable-purify-safety --without-python --enable-libmount=no --enable-shared=no --enable-png=yes --prefix=/home/jianglei/svg/build/usr/local --enable-static --disable-raw-api --without-python --disable-rebuilds --enable-script=no --without-libtiff --without-libjpeg --enable-gio-sniffing=no --disable-modules --disable-modular-tests --disable-tests --with-python=/usr/bin/python2.7 --cache-file=arm-linux.cache --disable-gtk-doc-pdf --disable-gtk-doc-html --disable-gtk-doc --disable-man --with-fontconfig=no --with-icu=no --enable-shared=yes --with-libstdc++=no --with-gobject=no --with-cairo=no --with-fontconfig=no --with-icu=no --with-ucdn=no --with-graphite2=no --with-uniscribe=no --with-directwrite=no --with-coretext=no --enable-interpreter=no
+2019年 10月 17日 星期四 15:10:11 CST
+unknown option: --disable-tools
+./configure --help for help
+** ./configure aborting.
+--------------------
+
+
+--------------------
+./configure --host=aarch64-linux CFLAGS=-D__ANDROID_API__=21 --sysroot=/home/jianglei/android-ndk-r17/NDK/arm64/sysroot --prefix=/home/jianglei/svg/build/usr/local
+2019年 10月 17日 星期四 15:10:25 CST
+unknown option: --host=aarch64-linux
+./configure --help for help
+** ./configure aborting.
+--------------------
+
+

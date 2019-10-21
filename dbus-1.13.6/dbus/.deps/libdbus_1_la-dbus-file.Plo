@@ -1,0 +1,28 @@
+libdbus_1_la-dbus-file.lo: dbus-file.c ../config.h dbus-file.h \
+ ../dbus/dbus-string.h ../dbus/dbus-macros.h ../dbus/dbus-types.h \
+ /home/jianglei/android-ndk-r17/NDK/arm64/lib/gcc/aarch64-linux-android/4.9.x/include/stddef.h \
+ ../dbus/dbus-arch-deps.h ../dbus/dbus-memory.h \
+ /home/jianglei/android-ndk-r17/NDK/arm64/lib/gcc/aarch64-linux-android/4.9.x/include/stdarg.h \
+ ../dbus/dbus-errors.h ../dbus/dbus-protocol.h
+
+../config.h:
+
+dbus-file.h:
+
+../dbus/dbus-string.h:
+
+../dbus/dbus-macros.h:
+
+../dbus/dbus-types.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/lib/gcc/aarch64-linux-android/4.9.x/include/stddef.h:
+
+../dbus/dbus-arch-deps.h:
+
+../dbus/dbus-memory.h:
+
+/home/jianglei/android-ndk-r17/NDK/arm64/lib/gcc/aarch64-linux-android/4.9.x/include/stdarg.h:
+
+../dbus/dbus-errors.h:
+
+../dbus/dbus-protocol.h:
